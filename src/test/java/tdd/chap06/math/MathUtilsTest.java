@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathUtilsTest {
 	@Test
 	void dataFileSumTest() {
-		File dataFile = new File("src/test/resources/datafile.txt");
+		File dataFile = new File("src/test/resources/chap06/datafile.txt");
 		long sum = MathUtils.sum(dataFile);
 		assertEquals(10L, sum);
 	}
@@ -22,7 +22,7 @@ class MathUtilsTest {
 	@Test
 	void dataFileSumTest2() {
 		givenDataFile("target/datafile.txt", "1", "2", "3", "4");
-		File dataFile = new File("src/test/resources/datafile.txt");
+		File dataFile = new File("src/test/resources/chap06/datafile.txt");
 		long sum = MathUtils.sum(dataFile);
 		assertEquals(10L, sum);
 	}
