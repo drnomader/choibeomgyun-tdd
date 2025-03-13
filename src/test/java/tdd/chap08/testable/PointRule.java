@@ -1,6 +1,5 @@
 package tdd.chap08.testable;
 
-import tdd.chap08.subs.Grade;
 import tdd.chap08.subs.Product;
 import tdd.chap08.subs.Subscription;
 
